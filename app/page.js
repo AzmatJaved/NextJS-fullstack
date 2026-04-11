@@ -1,6 +1,8 @@
-"use client";
-import { useEffect, useState } from "react";
 
+"use client";
+dfadfdsf
+import { useEffect, useState } from "react";
+// adding comment
 export default function Home() {
   const [users, setUsers] = useState([]);
   const [name, setName] = useState("");
@@ -11,7 +13,10 @@ export default function Home() {
       .then(res => res.json())
       .then(setUsers);
   }, []);
-
+const x = 10;
+  x = 20;
+  const finder = x.find((e)=>e.id))
+  console.log(finder)
   const addUser = async () => {
     await fetch("/api/users", {
       method: "POST",
@@ -22,7 +27,8 @@ export default function Home() {
     const res = await fetch("/api/users");
     setUsers(await res.json());
   };
-
+const x = 10
+  console.log(x.push(10)
   return (
     <main style={{ padding: 20 }}>
       <h2>Add User</h2>

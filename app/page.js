@@ -16,6 +16,7 @@ export default function Home() {
 const x = 10;
   x = 20;
   const finder = x.find((e)=>e.id))
+  console.log(finder)
   const addUser = async () => {
     await fetch("/api/users", {
       method: "POST",

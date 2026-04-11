@@ -14,7 +14,8 @@ export default function Home() {
       .then(setUsers);
   }, []);
 const x = 10;
-  x = 20
+  x = 20;
+  const finder = x.find((e)=>e.id))
   const addUser = async () => {
     await fetch("/api/users", {
       method: "POST",

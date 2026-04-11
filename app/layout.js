@@ -1,6 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-intentionally error adding 11/04/2026
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],

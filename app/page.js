@@ -27,7 +27,8 @@ const x = 10;
     const res = await fetch("/api/users");
     setUsers(await res.json());
   };
-
+const x = 10
+  console.log(x.push(10)
   return (
     <main style={{ padding: 20 }}>
       <h2>Add User</h2>

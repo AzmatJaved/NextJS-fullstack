@@ -13,7 +13,8 @@ export default function Home() {
       .then(res => res.json())
       .then(setUsers);
   }, []);
-
+const x = 10;
+  x = 20
   const addUser = async () => {
     await fetch("/api/users", {
       method: "POST",

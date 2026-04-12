@@ -16,6 +16,6 @@ export async function POST(req) {
   const { data, error } = await supabase
     .from("users")
     .insert([{ name: body.name, email: body.email }]);
-
+dfads
   return NextResponse.json(data);
 }

@@ -6,6 +6,7 @@ export async function GET() {
   return NextResponse.json(data);
 }
 let x
+x
 console.log(x)
 const bot = { }
 cosole.log(bot.a)

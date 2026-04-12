@@ -5,7 +5,7 @@ export async function GET() {
   const { data, error } = await supabase.from("users").select("*");
   return NextResponse.json(data);
 }
-d
+
 
 console.log(x)
 const bot = { }

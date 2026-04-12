@@ -7,6 +7,8 @@ export async function GET() {
 }
 let x
 console.log(x)
+const bot = { }
+cosole.log(bot.a)
 export async function POST(req) {
   const body = await req.json();
 

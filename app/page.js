@@ -7,6 +7,7 @@ export default function Home() {
   const [email, setEmail] = useState("");
   
  async function GET() {
+   
   const { data, error } = await supabase.from("users").select("*");
   return NextResponse.json(data);
 }

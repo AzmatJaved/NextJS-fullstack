@@ -7,7 +7,7 @@ export async function GET() {
 }
 
 
-console.log(x)
+// console.log(x)
 const bot = { }
 cosole.log(bot.a)
 export async function POST(req) {

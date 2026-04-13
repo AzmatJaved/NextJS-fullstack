@@ -6,8 +6,7 @@ export async function GET() {
   return NextResponse.json(data);
 }
 
-
-
+console.log9(a)
 export async function POST(req) {
   const body = await req.json();
 

@@ -5,7 +5,10 @@ export default function Home() {
   const [users, setUsers] = useState([]);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
-
+ async function GET() {
+  const { data, error } = await supabase.from("users").select("*");
+  return NextResponse.json(data);
+}
   useEffect(() => {
     fetch("/api/users")
       .then(res => res.json())

@@ -4,10 +4,6 @@ import { NextResponse } from "next/server";
 export async function GET() {
   const { data, error } = await supabase.from("users").select("*");
   return NextResponse.json(data);
-}
-server-V6-embeddings
-server-V6-embeddings
-server-V6-embeddings
 
 kdfjaklsjfkldaj
 console.log(VectorDB)

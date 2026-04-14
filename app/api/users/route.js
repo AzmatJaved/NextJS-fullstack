@@ -5,8 +5,7 @@ export async function GET() {
   const { data, error } = await supabase.from("users").select("*");
   return NextResponse.json(data);
 }
-kdfjaklsjfkldaj
-console.log(VectorDB)
+
 console.log(L)
 export async function POST(req) {
   const body = await req.json();

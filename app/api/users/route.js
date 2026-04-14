@@ -6,7 +6,7 @@ export async function GET() {
   return NextResponse.json(data);
 }
 
-
+kdfjaklsjfkldaj
 console.log(VectorDB)
 console.log(L)
 export async function POST(req) {

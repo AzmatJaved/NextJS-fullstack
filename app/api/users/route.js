@@ -1,7 +1,7 @@
 import { supabase } from "@/app/lib/supabase";
 import { NextResponse } from "next/server";
-kdjlk;jf
-export async function GET() {
+import supabase.js from "/supabase.js";
+  export async function GET() {
   const { data, error } = await supabase.from("users").select("*");
   return NextResponse.json(data);
 }

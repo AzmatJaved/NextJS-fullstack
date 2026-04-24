@@ -1,10 +1,11 @@
-import { supabase } from "@/app/lib/supabase";
+
 import { NextResponse } from "next/server";
-// testing webhook
-export async function GET() {
+console.log("hello")
+  export async function GET() {
   const { data, error } = await supabase.from("users").select("*");
   return NextResponse.json(data);
 }
+
 export async function POST(req) {
   const body = await req.json();
 

@@ -6,7 +6,6 @@ import {supabase} from "/supabase.js";
   return NextResponse.json(data);
 }
 
-console.log(L)
 export async function POST(req) {
   const body = await req.json();
 
